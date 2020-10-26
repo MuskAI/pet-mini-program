@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/home/release/release",
+    "pages/adopt/adopt",
+    "pages/pets/pets",
+    "pages/my/my",
+    "pages/my/mydynamic/mydynamic",
+    "pages/my/myadopt/myadopt",
+    "pages/my/reward/reward",
+    "pages/my/balance/balance",
+    "pages/my/question/question",
+    "pages/my/feedback/feedback"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "宠物养成",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#a18cd1",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "selectedIconPath": "images/home.png",
+      "iconPath": "images/home1.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/adopt/adopt",
+      "selectedIconPath": "images/adopt.png",
+      "iconPath": "images/adopt1.png",
+      "text": "领养"
+    },{
+      "pagePath": "pages/pets/pets",
+      "selectedIconPath": "images/pets.png",
+      "iconPath": "images/pets1.png",
+      "text": "宠物"
+    },{
+      "pagePath": "pages/my/my",
+      "selectedIconPath": "images/my.png",
+      "iconPath": "images/my1.png",
+      "text": "我"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

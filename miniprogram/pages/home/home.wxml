@@ -1,0 +1,89 @@
+<!--pages/home.wxml-->
+<van-search value="{{ value }}" placeholder="请输入搜索关键词" />
+<view class="cu-card case {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="../../images/chaiquan.jpg" mode="widthFix"></image>
+      <view class="cu-bar bg-shadeBottom">
+        <text class="text-cut">这里是一只柴犬。</text>
+      </view>
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <view class="cu-avatar round lg"
+          style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
+        <view class="content flex-sub">
+          <view class="text-grey">正义天使</view>
+          <view class="text-gray text-sm flex justify-between">
+            十分钟前
+            <view class="text-gray text-sm">
+              <text class="cuIcon-attentionfill margin-lr-xs"></text> 10
+              <text class="cuIcon-appreciatefill margin-lr-xs"></text> 20
+              <text class="cuIcon-messagefill margin-lr-xs"></text> 30
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="cu-card case {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="../../images/keji.jpg" mode="widthFix"></image>
+      <view class="cu-bar bg-shadeBottom">
+        <text class="text-cut">这里是一只柯基。</text>
+      </view>
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <view class="cu-avatar round lg"
+          style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
+        <view class="content flex-sub">
+          <view class="text-grey">2233</view>
+          <view class="text-gray text-sm flex justify-between">
+            九分钟前
+            <view class="text-gray text-sm">
+              <text class="cuIcon-attentionfill margin-lr-xs"></text> 10
+              <text class="cuIcon-appreciatefill margin-lr-xs"></text> 20
+              <text class="cuIcon-messagefill margin-lr-xs"></text> 30
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="cu-card case {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601132782802&di=eae1ed9a48c846bfb57128bda4ef5c58&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20170220%2F9cebe31a842a4e84891f2496333666b7_th.jpeg" mode="widthFix"></image>
+      <view class="cu-bar bg-shadeBottom">
+        <text class="text-cut">这里是一只波斯猫。</text>
+      </view>
+    </view>
+    <view class="cu-list menu-avatar">
+      <view class="cu-item">
+        <view class="cu-avatar round lg"
+          style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg);"></view>
+        <view class="content flex-sub">
+          <view class="text-grey">天天开心</view>
+          <view class="text-gray text-sm flex justify-between">
+            三分钟前
+            <view class="text-gray text-sm">
+              <text class="cuIcon-attentionfill margin-lr-xs"></text> 10
+              <text class="cuIcon-appreciatefill margin-lr-xs"></text> 20
+              <text class="cuIcon-messagefill margin-lr-xs"></text> 30
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <button class="release_button" bindtap="rlsBtn">
+    <image class="release_image" src="./../../images/add.png"></image>
+  </button>
+  
+
+</view>

@@ -1,0 +1,68 @@
+<!--pages/adopt/adopt.wxml-->
+<view class="cu-bar search bg-white">
+  <view class="search-form round">
+    <text class="cuIcon-search"></text>
+    <input type="text" placeholder="搜索领养宠物" confirm-type="search"></input>
+  </view>
+
+  <view class="action">
+    <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="Modal">发布领养信息</button>
+  </view>
+
+</view>
+
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-orange "></text> Cat's
+  </view>
+  <view class="action">
+    <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="Modal">查看全部</button>
+  </view>
+</view>
+
+<view style="display:flex;justify-content:space-around">
+  <view
+    style="height:450rpx; width:350rpx; display:flex; flex-direction:column; background:#fff;margin-top:10px；border-radius:5px">
+    <image style="height:300rpx; width:350rpx;" src="../../images/cat1.png"></image>
+    <text style="height:30rpx; width:50rpx;margin-top:10rpx;margin-left:10rpx;font-size:40rpx">Kisa</text>
+    <view style="display:flex; flex-direction:raw;margin-top:30rpx;justify-content:space-around">
+      <button class="cu-btn round bg-brown">adult</button>
+      <button class="cu-btn round bg-green">female</button>
+    </view>
+  </view>
+  <view style="height:450rpx; width:350rpx; display:flex; flex-direction:column; background:#fff;margin-top:10px；">
+    <image style="height:300rpx; width:350rpx;" src="../../images/cat2.png"></image>
+    <text style="height:30rpx; width:50rpx;margin-top:10rpx;margin-left:10rpx;font-size:40rpx">Mittens</text>
+    <view style="display:flex; flex-direction:raw;margin-top:30rpx;justify-content:space-around">
+      <button class="cu-btn round bg-brown">adult</button>
+      <button class="cu-btn round bg-green">male</button>
+    </view>
+  </view>
+</view>
+<view class="cu-bar bg-white margin-top">
+  <view class="action">
+    <text class="cuIcon-title text-orange "></text> Dog's
+  </view>
+  <view class="action">
+    <button class="cu-btn bg-blue shadow" bindtap="showModal" data-target="Modal">查看全部</button>
+  </view>
+</view>
+<view style="display:flex;justify-content:space-around">
+  <view
+    style="height:450rpx; width:350rpx; display:flex; flex-direction:column; background:#fff;margin-top:10px；border-radius:5px">
+    <image style="height:300rpx; width:350rpx;" src="../../images/dog1.png"></image>
+    <text style="height:30rpx; width:50rpx;margin-top:10rpx;margin-left:10rpx;font-size:40rpx">Sia</text>
+    <view style="display:flex; flex-direction:raw;margin-top:30rpx;justify-content:space-around">
+      <button class="cu-btn round bg-brown">adult</button>
+      <button class="cu-btn round bg-green">male</button>
+    </view>
+  </view>
+  <view style="height:450rpx; width:350rpx; display:flex; flex-direction:column; background:#fff;margin-top:10px；">
+    <image style="height:300rpx; width:350rpx; " src="../../images/dog2.png"></image>
+    <text style="height:30rpx; width:50rpx;margin-top:10rpx;margin-left:10rpx;font-size:40rpx">Oddy</text>
+    <view style="display:flex; flex-direction:raw;margin-top:30rpx;justify-content:space-around">
+      <button class="cu-btn round bg-brown">adult</button>
+      <button class="cu-btn round bg-green">female</button>
+    </view>
+  </view>
+</view>

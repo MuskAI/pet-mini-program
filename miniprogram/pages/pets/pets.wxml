@@ -1,0 +1,28 @@
+<view style="text-align:center;font-size:50rpx;magin-top:10rpx">Kisa</view>
+<swiper class="card-swiper " indicator-dots="true" circular="true" interval="5000" duration="500" bindchange="cardSwiper" indicator-color="#8799a3" indicator-active-color="#0081ff">
+  <swiper-item >
+    <view class="swiper-item">
+      <image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1601221489522&di=d27158b66efd8568f7928d1e4dcb662a&imgtype=0&src=http%3A%2F%2Feuro-premium.cn%2Fsites%2Fdefault%2Ffiles%2F2018%2F03%2F2018-03-02-602.jpg" mode="aspectFill"></image>
+    </view>
+  </swiper-item>
+  <swiper-item >
+    <view class="swiper-item">
+      <image src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1246127795,4249319494&fm=26&gp=0.jpg" mode="aspectFill"></image>
+    </view>
+  </swiper-item>
+</swiper>
+<view style="font-size:50rpx;margin-left:10rpx;font-weight:600">Plan</view>
+<view style="display:flex;justify-content:space-around">
+  <view
+    style="height:150rpx; width:350rpx; display:flex; flex-direction:column; background:#fff;margin-top:10px；border-radius:5px;background:#00C2B7">
+    <view style="height:70rpx; width:350rpx;color:#FFf;text-align:center;font-size:40rpx">10:00 AM</view>
+    <view style="height:70rpx; width:350rpx;color:#FFf;text-align:center;font-size:30rpx">Medication
+    </view>
+  </view>
+  <view
+    style="height:150rpx; width:350rpx; display:flex; flex-direction:column; background:#fff;margin-top:10px；border-radius:5px;background:#FF6E00">
+    <view style="height:70rpx;color:#FFf; width:350rpx;text-align:center;font-size:40rpx">12:00 PM</view>
+    <view style="height:70rpx; width:350rpx;color:#FFf;text-align:center;font-size:30rpx">Eating
+    </view>
+  </view>
+</view>

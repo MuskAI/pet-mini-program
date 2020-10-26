@@ -1,0 +1,96 @@
+<view class="container">
+  <view class='head'>
+    <view class='userinfo'>
+      <open-data class='userinfo_avatar' type="userAvatarUrl" lang="zh_CN"></open-data>
+      <open-data type="userNickName" lang="zh_CN"></open-data>
+    </view>
+  </view>
+
+  <button class="cS_button" open-type="contact" session-from="weapp">
+    <image class="cS_image" src="./../../images/customerService.png"></image>
+  </button>
+
+  <view class='person'>
+    <view class='person_header'>
+      <view class='bone'>
+        <view class='bone_top_text'>骨头数量</view>
+        <view class='bone_top'>
+          <view class='bone_text'>{{bone}}</view>
+          <image src='./../../images/bone.png'></image>
+        </view>
+      </view>
+
+      <view class='my'>
+        <navigator url='mydynamic/mydynamic'>
+          <view class='my_record'>
+            <view class='my_record_text'>我的动态:</view>
+            <view class='my_record_num'>{{dynamic}}</view>
+          </view>
+        </navigator>
+    
+        <navigator url='myadopt/myadopt'>
+          <view class='my_record'>
+            <view class='my_record_text'>我的领养:</view>
+            <view class='my_record_num'>{{adopt}}</view>
+          </view>
+        </navigator>
+    
+      </view>
+    </view>
+
+    <view class='border'></view>
+    <view class='border'></view>
+    <view class='border'></view>
+
+    <view class="weui-cells_after-title">
+      <navigator url="mydynamic/mydynamic" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="./../../images/mysend.png" style="margin-right: 5px; vertical-align: middle; width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">我的养宠记</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">我发布的记录</view>
+      </navigator>
+
+      <navigator url="mydynamic/mydynamic" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="./../../images/myrec.png" style="margin-right: 5px;vertical-align: middle; width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">我的领养记</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">我领养的宠物</view>
+      </navigator>
+
+      <navigator url="reward/reward" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="./../../images/money1.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">打赏记录</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+      
+      <navigator url="balance/balance" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="./../../images/tx.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">余额提现</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>  
+
+      <navigator url="question/question" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="./../../images/question.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">常见问题</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+      </navigator>
+
+      <navigator url="feedback/feedback" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+        <view class="weui-cell__hd">
+          <image src="./../../images/feedback.png" style="margin-right: 5px;vertical-align: middle;width:20px; height: 20px;"></image>
+        </view>
+        <view class="weui-cell__bd">意见反馈</view>
+        <view class="weui-cell__ft weui-cell__ft_in-access">欢迎向我们提出宝贵的意见</view>
+      </navigator>
+
+    </view>
+  </view>
+</view>
